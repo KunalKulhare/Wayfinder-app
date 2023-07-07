@@ -1,0 +1,42 @@
+    <!DOCTYPE html>  
+    <html>  
+    <body>  
+    <svg width="300px" height="300px" viewBox="0 0 5000 5000">  
+
+<defs>
+  <style type="text/css">
+   <![CDATA[
+   .filH49nz {
+    fill: #494949;
+    fill-rule: nonzero
+   }
+   .filWHITE {
+    fill: white
+   }
+   ]]>
+  </style>
+  <symbol id="elevator">
+   <path class="filH49nz" d="M711 0l-593 0c-66,0 -119,53 -119,119l0 1660c0,66 53,119 119,119l593 0 0 -1897z" />
+   <path class="filH49nz" d="M1541 0l-593 0 0 1897 593 0c66,0 119,-53 119,-119l0 -1660c0,-66 -53,-119 -119,-119z" />
+   <polygon class="filWHITE" points="1304,1067 1126,830 1482,830 " />
+   <polygon class="filWHITE" points="356,830 534,1067 178,1067 " />
+   <text x="0" y="2160" class="filH49 fntELEVATOR">ELEVATOR</text>
+  </symbol>
+</defs>
+<rect id="R" rx="10%" ry="15%" width="100%" height="100%" fill="gray"></rect>
+<!-- Thanks to Brian Birtles for pointing this out -->
+<!-- Rather than animating both scale and translate -- scale it at origin=(0,0) then translate -->
+   <g transform="translate(2500 2500)">
+	      <animateTransform attributeName="transform" type="scale" values="1; 2; 1; 0; 1" dur="3s" repeatCount="indefinite" additive="sum"></animateTransform>
+      <circle r="400" fill="red"></circle>
+   <use xlink:href="#elevator" x="100" y="100" transform="translate(-832 -1085)" >
+   </g>
+<rect id="RQ" rx="10%" ry="15%" y="0%" x="0%" width="100%" height="100%" fill="none" stroke="black" stroke-width="8%"></rect>
+
+      
+    </svg>  
+    </body>  
+    </html>  
+
+
+

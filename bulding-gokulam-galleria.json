@@ -1,0 +1,1203 @@
+{
+    "floors": [
+        {
+            "label": "B2",
+            "title": "Basement 2",
+            "id": "floorB2",
+            "path": "gokulam-galleria/floor_B2.svg"
+        },
+        {
+            "label": "B1",
+            "title": "Basement 1",
+            "id": "floorB1",
+            "path": "gokulam-galleria/floor_B1.svg"
+        },
+        {
+            "label": "G",
+            "title": "Ground Floor",
+            "id": "floorG",
+            "path": "gokulam-galleria/floor_0.svg"
+        },
+        {
+            "label": "1",
+            "title": "First Floor",
+            "id": "floor1",
+            "path": "gokulam-galleria/floor_1.svg"
+        },
+        {
+            "label": "2",
+            "title": "Second Floor",
+            "id": "floor2",
+            "path": "gokulam-galleria/floor_2.svg"
+        },
+        {
+            "label": "3",
+            "title": "Third Floor",
+            "id": "floor3",
+            "path": "gokulam-galleria/floor_3.svg"
+        },
+        {
+            "label": "4",
+            "title": "Fourth Floor",
+            "id": "floor4",
+            "path": "gokulam-galleria/floor_4.svg"
+        }
+    ],
+    "kiosks": [
+        {
+            "id": "1",
+            "floor": "floorG"
+        },
+        {
+            "id": "2",
+            "floor": "floor1"
+        }
+    ],
+    "route": {
+        "width": 250,
+        "color": "red",
+        "radius": 50,
+        "speed": 0.25
+    },
+    "amenities": [
+        {
+            "label": "Information Disk",
+            "id": "helpdesk",
+            "logo": "images/amenities/information-desk.png"
+        },
+        {
+            "label": "Lost Found",
+            "id": "lostfound",
+            "logo": "images/amenities/lost-and-found.png"
+        },
+        {
+            "label": "Ambulance",
+            "id": "ambulance",
+            "logo": "images/amenities/ambulance.png"
+        },
+        {
+            "label": "First Aid",
+            "id": "firstaid",
+            "logo": "images/amenities/first-aid.png"
+        },
+        {
+            "label": "ATM",
+            "id": "atm",
+            "logo": "images/amenities/atm.png"
+        },
+        {
+            "label": "RestRoom",
+            "id": "restroom",
+            "routeToNearest": "amenity_restroom",
+            "highlight": "blink",
+            "logo": "images/amenities/restroom.png"
+        },
+        {
+            "label": "Restroom for Disabled",
+            "id": "restroom_disabled",
+            "highlight": "blink",
+            "routeOption": "accessible",
+            "logo": "images/amenities/restroom-for-disabled.png"
+        },
+        {
+            "label": "Wheel Chair",
+            "id": "wheelchair",
+            "logo": "images/amenities/wheelchair.png"
+        },
+        {
+            "label": "Baby Care",
+            "id": "babycare",
+            "routeToNearest": "amenity_babycare",
+            "highlight": "blink",
+            "logo": "images/amenities/babycare.png"
+        },
+        {
+            "label": "Baby Prams",
+            "id": "babyprams",
+            "logo": "images/amenities/baby-prams.png"
+        },
+        {
+            "label": "Elevator",
+            "id": "elevator",
+            "highlight": "blink",
+            "logo": "images/amenities/elevator.png"
+        },
+        {
+            "label": "Escalator Travelator",
+            "id": "escalator",
+            "preclass": "escalator travelator",
+            "highlight": "blink",
+            "logo": "images/amenities/escalator-travelator.png"
+        },
+        {
+            "label": "Fire Escape Stair",
+            "id": "fire_escape_stair",
+            "highlight": "blink",
+            "logo": "images/amenities/fire-escape-stair.png"
+        },
+        {
+            "label": "Tailor Services",
+            "id": "tailorservices",
+            "logo": "images/amenities/tailor-services.png"
+        },
+        {
+            "label": "Food Court",
+            "id": "food-court",
+            "logo": "images/amenities/food-court.png"
+        },
+        {
+            "label": "Car Spa",
+            "id": "carspa",
+            "routeTo": "R9001",
+            "logo": "images/amenities/car-spa.png"
+        },
+        {
+            "label": "Cab Pickup",
+            "id": "cab",
+            "logo": "images/amenities/cab-pickup-point.png"
+        },
+        {
+            "label": "Cab DropOff",
+            "id": "cabdrop",
+            "logo": "images/amenities/cab-drop-point.png"
+        },
+        {
+            "label": "Valet Parking Pickup",
+            "id": "valetpickup",
+            "logo": "images/amenities/valet-parking-pick-up-point.png"
+        },
+        {
+            "label": "Valet_Parking DropOff",
+            "id": "valetdrop",
+            "logo": "images/amenities/valet-parking-drop-point.png"
+        },
+        {
+            "label": "Parking",
+            "id": "parking",
+            "logo": "images/amenities/parking.png"
+        },
+        {
+            "label": "Parking B1",
+            "id": "parkingb1",
+            "logo": "images/amenities/parking-b-1.png"
+        },
+        {
+            "label": "Parking B2",
+            "id": "parkingb2",
+            "logo": "images/amenities/parking-b-2.png"
+        }
+    ],
+    "categories": [
+        {
+            "label": "Lifestyle",
+            "id": "lifestyle",
+            "logo": "images/shops/cat/lifestyle.png",
+            "background": "images/shops/cat-background/lifestyle-bg.jpg"
+        },
+        {
+            "label": "Food & Drink",
+            "id": "food_drink",
+            "logo": "images/shops/cat/food_drink.png",
+            "background": "images/shops/cat-background/food_drink-bg.jpg"
+        },
+        {
+            "label": "Entertainment",
+            "id": "entertainment",
+            "logo": "images/shops/cat/entertainment.png",
+            "background": "images/shops/cat-background/entertainment-bg.jpg"
+        }
+    ],
+    "shops": [
+        {
+            "routeTo": "R0101",
+            "label": "Louis Philippe",
+            "id": "louis_philippe",
+            "logo": "images/shops/logo/louis-philippe.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "L",
+                "P"
+            ]
+        },
+        {
+            "routeTo": "R0102",
+            "label": "Allen Solly",
+            "id": "allen_solly",
+            "logo": "images/shops/logo/allen-solly.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "A",
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R0103",
+            "label": "Vanheusen",
+            "id": "vanheusen",
+            "logo": "images/shops/logo/van-heusen.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "V"
+            ]
+        },
+        {
+            "routeTo": "R0104",
+            "label": "Oneplus",
+            "id": "oneplus",
+            "logo": "images/shops/logo/one-plus.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "O"
+            ]
+        },
+        {
+            "routeTo": "R0105",
+            "label": "Peter England",
+            "id": "peter_england",
+            "logo": "images/shops/logo/peter-england.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "P",
+                "E"
+            ]
+        },
+        {
+            "routeTo": "R0106",
+            "label": "Queen Haurora",
+            "id": "queen_haurora",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "Q",
+                "H"
+            ]
+        },
+        {
+            "routeToNearest": "shop_westside",
+            "label": "Westside",
+            "id": "westside",
+            "logo": "images/shops/logo/westside.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "W"
+            ]
+        },
+        {
+            "routeTo": "R0112",
+            "label": "Nesto Hyper Market",
+            "id": "nesto_hyper_market",
+            "logo": "images/shops/logo/nesto.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "N",
+                "H",
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R1101",
+            "label": "Trends Women",
+            "id": "trends_women",
+            "logo": "images/shops/logo/trends-woman.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T",
+                "W"
+            ]
+        },
+        {
+            "routeTo": "R1102",
+            "label": "And",
+            "id": "and",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "A"
+            ]
+        },
+        {
+            "routeTo": "R1103",
+            "label": "Hamleys",
+            "id": "hamleys",
+            "logo": "images/shops/logo/hamleys.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "H"
+            ]
+        },
+        {
+            "routeTo": "R1104",
+            "label": "Myop",
+            "id": "myop",
+            "logo": "images/shops/logo/myop.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R1105",
+            "label": "Malabar Watches",
+            "id": "malabar_watches",
+            "logo": "images/shops/logo/malabar-watches.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M",
+                "W"
+            ]
+        },
+        {
+            "routeTo": "R1106",
+            "label": "",
+            "id": "ugf_009_a",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "U"
+            ]
+        },
+        {
+            "routeTo": "R1107",
+            "label": "Sugar Cosmetics",
+            "id": "sugar_cosmetics",
+            "logo": "images/shops/logo/sugar.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S",
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R1108",
+            "label": "Puma",
+            "id": "puma",
+            "logo": "images/shops/logo/puma.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "P"
+            ]
+        },
+        {
+            "routeTo": "R1109",
+            "label": "Gloria Jean’s Coffees",
+            "id": "gloria_jeans_coffees",
+            "logo": "images/shops/logo/gloria-jeans.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "G",
+                "J",
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R1112",
+            "label": "World Of Titan",
+            "id": "world_of_titan",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "W",
+                "T"
+            ]
+        },
+        {
+            "routeTo": "R1113",
+            "label": "Nykaa",
+            "id": "nykaa",
+            "logo": "images/shops/logo/naykaa.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "N"
+            ]
+        },
+        {
+            "routeTo": "R1114",
+            "label": "W & Wishful",
+            "id": "w_wishful",
+            "logo": "images/shops/logo/wishful.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "W"
+            ]
+        },
+        {
+            "routeTo": "R1115",
+            "label": "Basics",
+            "id": "basics",
+            "logo": "images/shops/logo/basics.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "B"
+            ]
+        },
+        {
+            "routeTo": "R1116",
+            "label": "Karim’s",
+            "id": "karims",
+            "logo": "images/shops/logo/karims.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "K"
+            ]
+        },
+        {
+            "routeTo": "R1117",
+            "label": "Jockey",
+            "id": "jockey",
+            "logo": "images/shops/logo/jockey.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "J"
+            ]
+        },
+        {
+            "routeTo": "R1118",
+            "label": "Pantaloons",
+            "id": "pantaloons",
+            "logo": "images/shops/logo/pantaloons.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "P"
+            ]
+        },
+        {
+            "routeToNearest": "shop_max",
+            "label": "Max",
+            "id": "max",
+            "logo": "images/shops/logo/max.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R2102",
+            "label": "Trends Jr",
+            "id": "trends_jr",
+            "logo": "images/shops/logo/trends-jr.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T",
+                "J"
+            ]
+        },
+        {
+            "routeTo": "R2103",
+            "label": "Crimsoune Club",
+            "id": "crimsoune_club",
+            "logo": "images/shops/logo/crimsoune-club.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R2104",
+            "label": "VH Innerwear",
+            "id": "vh_innerwear",
+            "logo": "images/shops/logo/van-heusen-innerwear.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "V",
+                "I"
+            ]
+        },
+        {
+            "routeTo": "R2105",
+            "label": "Go Colors",
+            "id": "go_colors",
+            "logo": "images/shops/logo/go-colors.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "G",
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R2106",
+            "label": "VR",
+            "id": "vr",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "V"
+            ]
+        },
+        {
+            "routeTo": "R2107",
+            "label": "Toni&Guy",
+            "id": "toni_guy",
+            "logo": "images/shops/logo/toni-guy.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T",
+                "G"
+            ]
+        },
+        {
+            "routeTo": "R2108",
+            "label": "Allensolly Junior",
+            "id": "allensolly_junior",
+            "logo": "images/shops/logo/allen-solly-jr.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "A",
+                "J"
+            ]
+        },
+        {
+            "label": "",
+            "id": "storage_space",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R2111",
+            "label": "Manyavar",
+            "id": "manyavar",
+            "logo": "images/shops/logo/manyawaar.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R2112",
+            "label": "Reliance Footprint",
+            "id": "reliance_footprint",
+            "logo": "images/shops/logo/reliance-footprint.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "R",
+                "F"
+            ]
+        },
+        {
+            "routeTo": "R2113",
+            "label": "Al-Ahzab",
+            "id": "al_ahzab",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "A"
+            ]
+        },
+        {
+            "routeTo": "R2114",
+            "label": "Apple",
+            "id": "apple",
+            "logo": "images/shops/logo/apple.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "A"
+            ]
+        },
+        {
+            "routeTo": "R2115",
+            "label": "Mochi",
+            "id": "mochi",
+            "logo": "images/shops/logo/mochi.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R2116",
+            "label": "Crocs",
+            "id": "crocs",
+            "logo": "images/shops/logo/crocs.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R2117",
+            "label": "Fila",
+            "id": "fila",
+            "logo": "images/shops/logo/fila.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "F"
+            ]
+        },
+        {
+            "routeTo": "R2118",
+            "label": "Mothercare",
+            "id": "mothercare",
+            "logo": "images/shops/logo/mothercare.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R2119",
+            "label": "",
+            "id": "ff_111",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "F"
+            ]
+        },
+        {
+            "routeTo": "R3102",
+            "label": "N Style",
+            "id": "n_style",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "N",
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3103",
+            "label": "Midas",
+            "id": "midas",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R3104",
+            "label": "The Shap",
+            "id": "the_shap",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T",
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3105",
+            "label": "Sidra Honey",
+            "id": "sidra_honey",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S",
+                "H"
+            ]
+        },
+        {
+            "routeTo": "R3106",
+            "label": "Squirr",
+            "id": "squirr",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3107",
+            "label": "Squirr",
+            "id": "squirr",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3108",
+            "label": "GKFC",
+            "id": "gkfc",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "G"
+            ]
+        },
+        {
+            "routeTo": "R3109",
+            "label": "Vismay Sarees",
+            "id": "vismay_sarees",
+            "logo": "images/shops/logo/vismay.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "V",
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3110",
+            "label": "",
+            "id": "sf_210",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3111",
+            "label": "Easy Buy",
+            "id": "easy_Buy",
+            "logo": "images/shops/logo/easybuy.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "E"
+            ]
+        },
+        {
+            "routeTo": "R3112",
+            "label": "Reliance Man",
+            "id": "reliance_man",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "R",
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R3113",
+            "label": "MCR",
+            "id": "mcr",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "M"
+            ]
+        },
+        {
+            "routeTo": "R3114",
+            "label": "",
+            "id": "sf_218",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3115",
+            "label": "Trends",
+            "id": "trends",
+            "logo": "images/shops/logo/trends.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T"
+            ]
+        },
+        {
+            "routeTo": "R3116",
+            "label": "Orchid",
+            "id": "orchid",
+            "logo": "images/shops/logo/orchid.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "O"
+            ]
+        },
+        {
+            "routeTo": "R3117",
+            "label": "Kiddies",
+            "id": "kiddies",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "K"
+            ]
+        },
+        {
+            "routeTo": "R3118",
+            "label": "Walkway",
+            "id": "walkway",
+            "logo": "images/shops/logo/walkway.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "W"
+            ]
+        },
+        {
+            "routeTo": "R3119",
+            "label": "",
+            "id": "sf_213",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R3120",
+            "label": "",
+            "id": "sf_211",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R4101",
+            "label": "Flame House 24",
+            "id": "flame_house_24",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "F",
+                "H"
+            ]
+        },
+        {
+            "routeTo": "R4102",
+            "label": "Wat A Burger",
+            "id": "wat_burger",
+            "logo": "images/shops/logo/wat-a-burger.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "W",
+                "B"
+            ]
+        },
+        {
+            "routeTo": "R4103",
+            "label": "",
+            "id": "fc_303",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "F"
+            ]
+        },
+        {
+            "routeTo": "R4104",
+            "label": "Salkara",
+            "id": "salkara",
+            "logo": "images/shops/logo/salkara.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R4105",
+            "label": "Chicking",
+            "id": "chicking",
+            "logo": "images/shops/logo/chicking.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R4106",
+            "label": "BR",
+            "id": "br",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "B"
+            ]
+        },
+        {
+            "routeTo": "R4107",
+            "label": "Nagas",
+            "id": "nagas",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "N"
+            ]
+        },
+        {
+            "routeTo": "R4108",
+            "label": "Fujian Express",
+            "id": "fujian_express",
+            "logo": "images/shops/logo/fuijan-express.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "F",
+                "E"
+            ]
+        },
+        {
+            "routeTo": "R4109",
+            "label": "Tea Point",
+            "id": "tea_point",
+            "logo": "images/shops/logo/tea-point.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "T",
+                "P"
+            ]
+        },
+        {
+            "routeTo": "R4110",
+            "label": "Duck Of Juices",
+            "id": "duck_juices",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "D",
+                "J"
+            ]
+        },
+        {
+            "routeTo": "R4111",
+            "label": "Ricotta Pizza",
+            "id": "ricotta_pizza",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "R",
+                "P"
+            ]
+        },
+        {
+            "routeTo": "R4112",
+            "label": "Falooda Nation",
+            "id": "falooda_nation",
+            "logo": "images/shops/logo/flooda-nation.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "F",
+                "N"
+            ]
+        },
+        {
+            "routeTo": "R4113",
+            "label": "Chickos",
+            "id": "chickos",
+            "logo": "images/shops/logo/chickos.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R4114",
+            "label": "Fatoor",
+            "id": "fatoor",
+            "logo": "images/shops/logo/fatoor.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "F"
+            ]
+        },
+        {
+            "routeTo": "R4115",
+            "label": "Charminar",
+            "id": "charminar",
+            "logo": "images/shops/logo/charminar.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R4116",
+            "label": "Veggie Bhavan",
+            "id": "veggie_bhavan",
+            "logo": "images/shops/logo/veggie-bhavan.png",
+            "categories": [
+                "food_drink"
+            ],
+            "filters": [
+                "V",
+                "B"
+            ]
+        },
+        {
+            "routeTo": "R4120",
+            "label": "Terrace Seating",
+            "id": "terrace_seating",
+            "logo": "images/shops/logo/default.png",
+            "categories": [
+                "lifestyle"
+            ],
+            "filters": [
+                "T",
+                "S"
+            ]
+        },
+        {
+            "routeTo": "R4121",
+            "label": "Cinepolis",
+            "id": "cinepolis",
+            "logo": "images/shops/logo/cinepolis.png",
+            "categories": [
+                "entertainment"
+            ],
+            "filters": [
+                "C"
+            ]
+        },
+        {
+            "routeTo": "R4122",
+            "label": "Amoeba",
+            "id": "amoeba",
+            "logo": "images/shops/logo/amoeba.png",
+            "categories": [
+                "entertainment"
+            ],
+            "filters": [
+                "A"
+            ]
+        }
+    ]
+}
